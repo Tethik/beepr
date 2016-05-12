@@ -3,7 +3,13 @@ use ears::{Sound, AudioController};
 
 fn main() {
     // Create a new Sound.
-    let mut snd: Sound = Sound::new("/usr/share/beepr/sounds/dingaling.ogg").unwrap();
+    let mut snd = match Sound::new("/usr/share/beepr/sounds/dingaling.ogg") {
+        Some(val) => val,
+        None => {
+            println!("Could not open sound file at /usr/share/beepr/sounds/dingaling.ogg");
+            return;
+        }
+    };
 
     // Play the Soun
     snd.play();
