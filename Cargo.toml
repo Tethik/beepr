@@ -1,5 +1,5 @@
 [package]
-name = "beep"
+name = "beepr"
 version = "0.1.0"
 authors = ["Joakim Uddholm <joakim@uddholm.com>"]
 

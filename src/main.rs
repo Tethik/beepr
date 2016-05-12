@@ -3,7 +3,7 @@ use ears::{Sound, AudioController};
 
 fn main() {
     // Create a new Sound.
-    let mut snd: Sound = Sound::new("sounds/dingaling.ogg").unwrap();
+    let mut snd: Sound = Sound::new("/usr/share/beepr/sounds/dingaling.ogg").unwrap();
 
     // Play the Soun
     snd.play();

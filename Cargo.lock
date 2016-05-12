@@ -1,5 +1,5 @@
 [root]
-name = "beep"
+name = "beepr"
 version = "0.1.0"
 dependencies = [
  "ears 0.3.4 (registry+https://github.com/rust-lang/crates.io-index)",
