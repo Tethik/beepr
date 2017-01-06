@@ -5,4 +5,4 @@ authors = ["Joakim Uddholm <joakim@uddholm.com>"]
 build = "build.rs"
 
 [dependencies]
-ears = "0.3.4"
+ears = "0.3.5"
