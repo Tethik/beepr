@@ -6,7 +6,7 @@ build:
 	cargo build --release
 
 copy_sounds:
-	cp sounds/ -r /usr/share/beepr/
+	cp sounds -r /usr/share/beepr/
 
 copy_bin:
 	cp target/release/beepr /usr/bin
